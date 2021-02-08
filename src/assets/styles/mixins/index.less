@@ -1,0 +1,55 @@
+.clearfix() {
+    zoom: 1;
+    &::before,
+    &::after {
+        display: table;
+        content: '';
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+/**
+ * 定义大小
+ */
+.size(@width; @height) {
+    width: @width;
+    height: @height;
+}
+.square(@size) {
+    .size(@size; @size);
+}
+
+/**
+ * 动画
+ */
+/**
+* animation
+*/
+.keyframes (@prefix,@name,@content) when (@prefix=def) {
+    @keyframes @name {
+        @content();
+    }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=moz) {
+    @-moz-keyframes @name {
+        @content();
+    }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=o) {
+    @-o-keyframes @name {
+        @content();
+    }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=webkit) {
+    @-webkit-keyframes  @name{
+        @content();
+    }
+}
+.keyframes (@prefix,@name,@content) when (@prefix=all) {
+    .keyframes(moz,@name,@content);
+    .keyframes(o,@name,@content);
+    .keyframes(webkit,@name,@content);
+    .keyframes(def,@name,@content);
+}

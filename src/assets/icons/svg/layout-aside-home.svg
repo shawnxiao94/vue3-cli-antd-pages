@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M7.5,7.5 L7.5,19.5 L4.5,19.5 L4.5,7.5 L7.5,7.5 Z M13.5,4.5 L13.5,19.5 L10.5,19.5 L10.5,4.5 L13.5,4.5 Z M19.5,10.5 L19.5,19.5 L16.5,19.5 L16.5,10.5 L19.5,10.5 Z M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,23 C24,23.5522847 23.5522847,24 23,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z M2.4,2.4 L2.4,21.6 L21.6,21.6 L21.6,2.4 L2.4,2.4 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Elements-/-Icon-/-Home">
+            <g id="Color---Palette">
+                <mask id="mask-2">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill-rule="nonzero" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
